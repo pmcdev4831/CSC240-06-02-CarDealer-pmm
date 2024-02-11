@@ -44,6 +44,7 @@
             UxFordFocusCheckBox.TabIndex = 0;
             UxFordFocusCheckBox.Text = "Ford Focus 2016";
             UxFordFocusCheckBox.UseVisualStyleBackColor = true;
+            UxFordFocusCheckBox.CheckedChanged += UxFordFocusCheckBox_CheckedChanged;
             // 
             // UxToyotaCamryCheckBox
             // 
@@ -55,6 +56,7 @@
             UxToyotaCamryCheckBox.TabIndex = 1;
             UxToyotaCamryCheckBox.Text = "Toyota Camry 2010";
             UxToyotaCamryCheckBox.UseVisualStyleBackColor = true;
+            UxToyotaCamryCheckBox.CheckedChanged += UxToyotaCamryCheckBox_CheckedChanged;
             // 
             // UxChevyTahoeCheckBox
             // 
@@ -66,6 +68,7 @@
             UxChevyTahoeCheckBox.TabIndex = 2;
             UxChevyTahoeCheckBox.Text = "Chevy Tahoe 2013";
             UxChevyTahoeCheckBox.UseVisualStyleBackColor = true;
+            UxChevyTahoeCheckBox.CheckedChanged += UxChevyTahoeCheckBox_CheckedChanged;
             // 
             // UxCarDealerLabel
             // 
